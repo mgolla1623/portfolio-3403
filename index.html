@@ -1,0 +1,453 @@
+<!--TO DO: look into the project expand section when it drops down. the whole is dropping down. ALSO MAKE SURE LINKS OPEN IN NEW TABS!!-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Manasa Golla - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<script src="script.js"></script>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="nav-container">
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+  <div class="hero-content">
+    <div class="hero-text-container">
+      <div class="hero-text-content">
+        <div class="hero-greeting-line">
+          <div class="hero-greeting">Hi! I'm</div>
+          <div class="hero-name">Manasa</div>
+        </div>
+        <div class="hero-title-line">
+          <div class="hero-title">welcome to my portfolio!</div>
+        </div>
+        <div class="hero-buttons">
+          <a href="mailto:manasagolla716@gmail.com" class="hero-social-link" title="Email" target="_blank" rel="noopener">
+            <img src="images/square-envelope-solid.svg" alt="Email" />
+          </a>
+          <a href="https://github.com/mgolla1623" class="hero-social-link" title="GitHub" target="_blank" rel="noopener">
+            <img src="images/square-github-brands.svg" alt="GitHub" />
+          </a>
+          <a href="https://linkedin.com/in/manasagolla16" class="hero-social-link" title="LinkedIn" target="_blank" rel="noopener">
+            <img src="images/linkedin-brands.svg" alt="LinkedIn" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-image-container">
+      <img src="images/doodle.png" alt="Manasa Golla" class="hero-photo" />
+    </div>
+  </div>
+</section>
+
+
+
+
+    <!-- About Section -->
+
+
+   <section class="section" id="about">
+  <div class="about-wrapper">
+    <div class="about-image-container">
+      <img src="images/portfolio5.jpg" alt="me" class="about-photo" />
+    </div>
+
+    <div class="about-text-container">
+        
+      <div class="about-heading">
+        <span class="light">About</span>
+        <span class="bold">Me</span>
+      
+      </div>
+
+      <p>
+        I'm a Computer Science student with a love for problem-solving and creating 
+        innovative digital solutions. I appreciate the power technology has
+        to make a positive impact on the world. Outside of school and work, I love spending time outdoors -- whether that’s hiking, going on walks, or exploring new parks and farmers markets. 
+        I’m always on the lookout for  foods to try, and love to bake and cook. I also work at a yoga studio, which has been a great way to stay 
+        grounded and be surrounded by a great community!!
+      </p>
+
+      <div class="education-box">
+        <strong>Education</strong>
+        <div>Georgia Institute of Technology</div>
+        <div>B.S. in Computer Science</div>
+        <div>2022 – 2026</div>
+      </div>
+
+      <div class="skills">
+        <div class="skills-title"><strong>Skills</strong></div>
+        <div class="skills-list">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">HTML/CSS</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="about-heading section-centered">
+            <span class="light">My </span>
+            <span class="bold">Projects</span>
+        
+        </div>
+        
+        <!-- <h2 class="section-title fade-in">Projects</h2> -->
+        <div class="projects-grid fade-in">
+          <div class="project-card">
+            <div class="project-image"> <img src="images/pantry.png"></div>
+            <div class="project-title">Pantry</div>
+            <div class="project-links">
+              <a href="pdf/Project Notebook (2).pdf" target="_blank" rel="noopener" class="project-link">Documentation</a>
+              <a href="https://github.com/navyagupta2804/First-Prototype" class="project-link">GitHub</a>
+              <span class="project-dropdown-arrow">&#9660;</span>
+            </div>
+            <div class="project-content">
+              <p class="project-description">
+                Designed and validated a community-driven cooking motivation platform through iterative A/B testing and user research, demonstrating that combining personal progress tracking with micro-community accountability increases sustained cooking engagement.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Reac Native</span>
+                <span class="tech-tag">Expo</span>
+                <span class="tech-tag">Firebase</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">A/B Testing</span>
+                <span class="tech-tag">Cloud Functions</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image"> <img src="images/chess.png"></div>
+            <div class="project-title">Chess State Recognition</div>
+            <div class="project-links">
+              <a href="pdf/CS_7643_Final_Report (2).pdf" target="_blank" rel="noopener" class="project-link">Documentation</a>
+              <a href="https://github.com/TrentConley/deeplearning_chess" class="project-link">GitHub</a>
+              <span class="project-dropdown-arrow">&#9660;</span>
+            </div>
+            <div class="project-content">
+              <p class="project-description">
+                Developed a computer vision system to recognize chess piece positions from 3D-rendered images, implementing CNN-based square classification and generating 15,000+ synthetic training samples from real game data in FEN notation.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">Computer Vision</span>
+                <span class="tech-tag">CNN</span>
+                <span class="tech-tag">Image Processing</span>
+                <span class="tech-tag">Deep Learning</span>
+             
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image"> <img src="images/corticalPic.png"></div>
+            <div class="project-title">Cortical N1 Activity vs Muscle Activity</div>
+            <div class="project-links">
+              <a href="https://nawal-r2002.github.io/Cortical_Activity_Study/" class="project-link">Documentation</a>
+              <a href="https://github.com/nawal-r2002/Cortical_Activity_Study/tree/main" class="project-link">GitHub</a>
+              <span class="project-dropdown-arrow">&#9660;</span>
+            </div>
+            <div class="project-content">
+              <p class="project-description">
+                Developed machine learning models to analyze and predict muscle activity from cortical N1 EEG signals, enabling insights into balance control mechanisms in aging and Parkinson’s patients.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Jupyter Notebook</span>
+                <span class="tech-tag">Matplotlib</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Numpy</span>
+                <span class="tech-tag">Seaborn</span>
+                <span class="tech-tag">sklearn</span>
+                <span class="tech-tag">tensorflow</span>
+                <span class="tech-tag">cca zoo</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image"><img src ="images/aslPic.png"></div>
+            <div class="project-title">Hands on Learning</div>
+            <div class="project-links">
+              <a href="https://docs.google.com/presentation/d/e/2PACX-1vS58IS79fTiORIay4KqcAoarbTCj0G2uVeMso4i90J9XpTrW6zbYhg1Bug3Waai-bFWPQuu7SsgDuAR/pub?start=false&loop=false&delayms=3000" class="project-link">Demo</a>
+              <a href="https://github.com/pennonshue/HackGt23" class="project-link">GitHub</a>
+              <span class="project-dropdown-arrow">&#9660;</span>
+            </div>
+            <div class="project-content">
+              <p class="project-description">
+                Real-time American Sign Language recognition system using YOLOv5 and OpenCV with custom dataset.
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">YOLOv5</span>
+                <span class="tech-tag">OpenCV</span>
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">LabelImg</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image"><img src ="images/BogDashboard.png"></div>
+            <div class="project-title">Bits of Good: Analytics Dashboard</div>
+            <div class="project-links">
+              <a href="https://portal.analytics.bitsofgood.org/" class="project-link">Project Link</a>
+              <a href="https://github.com/GTBitsOfGood/bog-analytics?tab=readme-ov-file" class="project-link">GitHub</a>
+              <span class="project-dropdown-arrow">&#9660;</span>
+            </div>
+            <div class="project-content">
+              <p class="project-description">
+                Internal analytics dashboard tracking project progress and team metrics across Bits of Good chapters.
+              <div class="project-tech">
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">Streamlit</span>
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image"><img src="images/techEats1.png"></div>
+            <div class="project-title">TechEats</div>
+            <div class="project-links">
+              <a href="https://www.figma.com/proto/A8ChIPanMnbvL1KPXN3ozO/Case-Study---Manasa---Winnie--Copy-?node-id=2322-156&t=0KlEXsLf9sgUSvv0-1&starting-point-node-id=2322%3A1556" class="project-link">Demo</a>
+              <a href="https://www.figma.com/proto/A8ChIPanMnbvL1KPXN3ozO/Case-Study?node-id=923-71&p=f&t=X4DvVF6azxHM3lvQ-1&scaling=contain&content-scaling=fixed&page-id=1%3A5&starting-point-node-id=923%3A71" class="project-link">Presentation</a>
+              <span class="project-dropdown-arrow">&#9660;</span>
+            </div>
+            <div class="project-content">
+              <p class="project-description">
+                Redesigned Georgia Tech's food ordering app with intuitive UI and seamless user flow.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Figma</span>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image"><img src ="images/dungeonCrawler.png"></div>
+            <div class="project-title">Dungeon Crawler</div>
+            <div class="project-links">
+              <a href="https://xadestar.wixsite.com/cs2340---dungeon-cra" class="project-link">Demo</a>
+              <a href="https://github.com/JVKdouk/CS2340B_Team31" class="project-link">GitHub</a>
+              <span class="project-dropdown-arrow">&#9660;</span>
+            </div>
+            <div class="project-content">
+              <p class="project-description">
+                Android game built with Java featuring multiple levels and interactive gameplay mechanics.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Android Studio</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>   
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+        <div class="about-heading section-centered">
+            <span class="light">My </span>
+            <span class="bold">Experience</span>
+        
+        </div>
+
+      
+        <div class="experience-timeline fade-in">
+
+            <div class="experience-item">
+                <div class="experience-header" >
+                    <div>
+                        <h3 class="experience-title">Software Engineering Intern</h3>
+                        <p class="experience-company">Avanos Medical</p>
+                        <span class="experience-date">Jan 2025 - Aug 2025</span>
+                    </div>
+                    <div class="dropdown-arrow">▼</div>
+                </div>
+                <div class="experience-content">
+                    <div class = "experience-description">
+                        <p>
+                            At Avanos Medical, I designed and launched a Power BI dashboard to help track invoices across multiple teams, making financial data more accessible. I also developed an Azure-based chatbot with Cosmos DB to help employees quickly find documents, and integrated Salesforce with OpenAI to enable natural language queries for business data, making reporting much easier.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-title">Software Engineer</h3>
+                        <p class="experience-company">Hack4Impact (501c3)</p>
+                        <span class="experience-date">Jan 2025 - Present</span>
+                    </div>
+                    <div class="dropdown-arrow">▼</div>
+                </div>
+                <div class="experience-content">
+                    <div class = "experience-description">
+                        <p>
+                            As a software engineer at Hack4Impact, I co-authored product specs for a web platform used by chapters nationwide, set up GitHub CI/CD workflows to make onboarding easier, and built a scalable website to help manage resources for hundreds of users each week.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-title">Undergraduate Researcher</h3>
+                        <p class="experience-company">College of Computing at Georgia Tech</p>
+                        <span class="experience-date">June 2025 - Present </span>
+                    </div>
+                    <div class="dropdown-arrow">▼</div>
+                </div>
+                <div class="experience-content">
+                    <div class="experience-description">
+                        <p>
+                            At the Culture and Technology (CAT) Lab, I research AI and NLP systems with a focus on responsible and ethical data use. My work includes reviewing literature on qualitative methods, writing research briefs, and exploring tools and best practices for data ethics in multilingual NLP pipelines.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-title">Undergraduate Researcher</h3>
+                        <p class="experience-company">NIH, Georgia Tech Virtually Integrated Projects</p>
+                        <span class="experience-date">Jan 2024 - May 2025</span>
+                    </div>
+                    <div class="dropdown-arrow">▼</div>
+                </div>
+                <div class="experience-content">
+                    <div class="experience-description">
+                        <p>
+                            I developed a speech therapy app using AWS Cognito and DynamoDB to support collaboration between patients and clinicians. I also implemented a secure dual-user system for data sharing and improved both the backend and UI to make the app more engaging and user-friendly.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-title">Social Impact Program Manager</h3>
+                        <p class="experience-company">Hack4Impact (501c3)</p>
+                        <span class="experience-date">Oct 2023 - May 2024</span>
+                    </div>
+                    <div class="dropdown-arrow">▼</div>
+                </div>
+                <div class="experience-content">
+                    <div class="experience-description">
+                        <p>
+                            As a program manager, I supported operations for several high school Hack4Impact chapters, helped design curriculam, measured project impact, and facilitated communication between student teams and nonprofit partners.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-title">Engineering Operations</h3>
+                        <p class="experience-company">Bits of Good (501c3)</p>
+                        <span class="experience-date">Jan 2023 - May 2024</span>
+                    </div>
+                    <div class="dropdown-arrow">▼</div>
+                </div>
+                <div class="experience-content">
+                    <div class="experience-description">
+                        <p>
+                            At Bits of Good, I created an internal analytics dashboard to track project progress and team engagement, automated data flow between platforms using Docker and Google Sheets API, and worked with product and engineering teams to scale analytics features.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-title">Engineering Intern</h3>
+                        <p class="experience-company">Drones iVue</p>
+                        <span class="experience-date">Jan 2021 - June 2021</span>
+                    </div>
+                    <div class="dropdown-arrow">▼</div>
+                </div>
+                <div class="experience-content">
+                    <div class="experience-description">
+                        <p>
+                            As an engineering intern, I programmed and tested Arduino code for ultrasonic sensors to improve drone navigation, integrated hardware and software using C, and maintained the company’s website to ensure everything ran smoothly.
+                        </p>
+                    </div>
+                </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="section" id="resume">
+        <div class="about-heading section-centered">
+            <span class="light">My </span>
+            <span class="bold">Resume</span>
+        </div>
+        <div class="resume-container" style="display: flex; justify-content: center; align-items: center; flex-direction: column; margin-top: 2rem;">
+            <iframe src="pdf/ManasaGollaResume.pdf" width="80%" height="600px" style="border:1px solid #e2e8f0; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04);"></iframe>
+            <a href="pdf/ManasaGollaResume.pdf" target="_blank" rel="noopener" class="project-link" style="margin-top: 1.5rem; font-size: 1.1rem;">Download PDF</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="social-links">
+                
+            </div>
+            <p class="footer-text">
+                © 2025 Manasa Golla. :)
+            </p>
+        </div>
+    </footer>
+ 
+<script>
+document.querySelectorAll('.project-card').forEach(card => {
+  card.addEventListener('click', function(e) {
+    // Prevent toggling when clicking a link
+    if (e.target.closest('a')) return;
+    this.classList.toggle('expanded');
+  });
+});
+</script>
+</body>
+</html>
+
+
+
+
+
